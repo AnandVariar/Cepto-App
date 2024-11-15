@@ -1,0 +1,76 @@
+# Node modules
+/node_modules
+/frontend/node_modules
+/server/node_modules
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+/server/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Build output
+/build
+/dist
+/frontend/build
+/server/build
+/frontend/dist
+/server/dist
+
+# Coverage reports
+/coverage
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode
+.idea
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+*.lock
+
+# Parcel-bundler cache (if using Parcel)
+/.cache
+.parcel-cache
+
+# TypeScript cache (if using TypeScript)
+/*.tsbuildinfo
+
+# Next.js
+.next
+out
+
+# Other build artifacts
+*.out
+*.o
+
+# Storybook files (if using Storybook)
+.storybook/
+*.stories.*
+
+# Gatsby files (if using Gatsby)
+.cache/
+public/
+
+# SvelteKit files (if using SvelteKit)
+.svelte-kit/
+
+# Lerna files (if using Lerna)
+/lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.swp
+
+# TernJS (if using TernJS)
+/.tern-port
